@@ -39,6 +39,9 @@ public class RedBus {
 //Close the popup using the X button at the right corner
 		Thread.sleep(20000);
 		driver.findElement(By.xpath("//div[@class='close']/i")).click();
+		Thread.sleep(20000);
+		driver.findElement(By.xpath("//div[@class='close-primo']/i")).click();
+
 		
 //Print the number of search results
 		WebElement C = driver.findElement(By.xpath("//div[@class='search']/div[2]/div[2]/div[2]/div/span[1]/span"));
